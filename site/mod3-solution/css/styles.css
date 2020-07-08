@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    color: rebeccapurple;
+    background-color: maroon;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+.navbar {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list {
+    background-color: white;
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+    font-size: 150%;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7
+}
+
+li {
+    border: 2px solid black;
+}
+
+#button {
+    background-color: rebeccapurple;
+}
+
+#button:hover {
+    background-color: #8f74a6;
+}
+
+#bar {
+    background-color: yellow;
+}
+
+#brand {
+    color: rebeccapurple;
+    font-size: 2em;
+}
+
+h1 {
+    padding-bottom: 30px;
+    margin: 10px;
+    color: gold;
+}
+
+section {
+    background-color: gray;
+    border: 15px solid gold;
+}
+
+section:hover {
+    background-color: gainsboro;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    height: 1000px;
+    padding: 20px;
+    color: black;
+}
+
+p > a {
+    text-decoration: underline;
+    color: blue;
+}
